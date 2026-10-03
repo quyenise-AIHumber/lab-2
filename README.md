@@ -1,4 +1,4 @@
-# Project Name
+# Project: CAD Exchange Rate Summary
 This program downloads CAD exchange rate data and summarizes monthly average and largest rate change for USD, EUR and GBP.
 ## Data source
 The URL: https://api.frankfurter.dev/v1/""2024-01-01..2024-06-30?from=CAD&to=USD,EUR,GBP,
