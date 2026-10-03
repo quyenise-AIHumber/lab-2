@@ -54,6 +54,8 @@ def group_by_month(records):
 
 def largest_rate_changes(records):
     """Identify the largest rate changes for each currency."""
+    records = sorted(records, key=lambda record: record["date"])
+    
     currencies = ["USD", "EUR", "GBP"]
     largest_changes = {}
     for currency in currencies:
